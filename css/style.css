@@ -19,9 +19,13 @@ ______________________________________________________________ */
 }
 
 .green {
-    background-color: rgb(56, 140, 51);
+    background-color: rgb(51, 119, 140);
 }
 
+.back {
+    background: url("../images/back2.jpg");
+    background-size: cover;
+}
 /* Typography
 ______________________________________________________________ */
 body {
@@ -49,6 +53,10 @@ p.description {
     font-size: 1.4em;
 }
 
+a.name {
+    font-weight: bold;
+}
+
 /* Header and Navigation
 ______________________________________________________________ */
 header.main_nav {
@@ -73,6 +81,7 @@ header.main_nav {
 
 .logo a:hover {
     background-color: white;
+    color: rgb(52, 125, 177) !important;
     color: #7accc8;
 }
 
