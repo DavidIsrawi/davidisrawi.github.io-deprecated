@@ -166,6 +166,10 @@ ul.social li.github a:hover {
     color: rgb(32, 32, 32);
 }
 
+ul.social li.email a:hover {
+    color: rgb(52, 145, 112);
+}
+
 p.copyright {
     text-align: center;
     color: #666;
