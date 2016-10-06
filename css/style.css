@@ -23,7 +23,7 @@ ______________________________________________________________ */
 }
 
 .back {
-    background: url("../images/back2.jpg");
+    background: url("../images/back.jpg");
     background-size: cover;
 }
 /* Typography
@@ -45,6 +45,11 @@ h2.bio {
 }
 
 p.bio {
+    color: white;
+    font-size: 1.4em;
+}
+
+a.bio {
     color: white;
     font-size: 1.4em;
 }
@@ -99,6 +104,11 @@ img.avatar {
 img.volunteer {
     height: 120px;
     width: 150px;
+}
+
+img.project {
+    max-width: 170px;
+    max-height: 170px;
 }
 
 img.shared {
