@@ -23,9 +23,12 @@ ______________________________________________________________ */
 }
 
 .back {
-    background: url("../images/back.jpg");
+    background: url("../images/back2.jpg");
+    height: 100vh;
+    min-width: 100%;
     background-size: cover;
 }
+
 /* Typography
 ______________________________________________________________ */
 body {
@@ -35,8 +38,9 @@ body {
 }
 
 h2 {
-    font-family: 'Satisfy', cursive;
-    font-size: 3em;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 2.6em;
     margin: 0.67em;
 }
 
@@ -60,13 +64,21 @@ p.description {
 
 a.name {
     font-weight: bold;
+    height: 50vh;
+}
+
+p.subtitle {
+    font-size: 1.8em;
+    color: white;
 }
 
 /* Header and Navigation
 ______________________________________________________________ */
 header.main_nav {
     padding: 1% 0;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo {
@@ -75,7 +87,7 @@ header.main_nav {
 }
 
 .logo a{
-    font-size: 3em;
+    font-size: 4em;
     color: white;
     text-decoration: none;
     border: 3px solid white;
