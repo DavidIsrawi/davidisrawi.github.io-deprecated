@@ -23,7 +23,8 @@ ______________________________________________________________ */
 }
 
 .back {
-    background: url("../images/back2.jpg");
+    background: url("../images/blueback2.jpg");
+    /*background-color: #1d74ab;*/
     height: 100vh;
     min-width: 100%;
     background-size: cover;
@@ -156,7 +157,7 @@ ul.social li {
 }
 
 ul.social li a {
-    color: #666;
+    color: #e4e4e4;
 }
 
 ul.social li.facebook a:hover {
@@ -168,7 +169,7 @@ ul.social li.twitter a:hover {
 }
 
 ul.social li.instagram a:hover {
-    color: rgb(81,127,237);
+    color: rgb(237, 179, 81);
 }
 
 ul.social li.youtube a:hover {
@@ -180,7 +181,7 @@ ul.social li.flickr a:hover {
 }
 
 ul.social li.linkedin a:hover {
-    color: rgb(0,123,182);
+    color: rgb(24, 196, 213);
 }
 
 ul.social li.github a:hover {
@@ -188,7 +189,7 @@ ul.social li.github a:hover {
 }
 
 ul.social li.email a:hover {
-    color: rgb(52, 145, 112);
+    color: rgb(59, 207, 154);
 }
 
 p.copyright {
