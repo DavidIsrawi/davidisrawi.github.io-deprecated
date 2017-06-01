@@ -201,7 +201,7 @@ p.copyright {
 /* Media Queries
 ______________________________________________________________ */
 /* Larger than mobile */
-@media (max-width: 479px) {
+@media screen and (max-width: 500px) {
     .logo a {
         font-size: 2em;
     }
@@ -223,5 +223,9 @@ ______________________________________________________________ */
     }
     ul.social li a {
         font-size: .75em;
+    }
+
+    .back {
+        background: #1d74ab;
     }
 }
