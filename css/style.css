@@ -1,6 +1,7 @@
 /* Table of Contents
 ______________________________________________________________
 - General Content
+- Navigation bar
 - Typography
 - Header and Navigation
 - Images and Media
@@ -32,6 +33,43 @@ ______________________________________________________________ */
 
 .links {
     padding: 0;
+}
+
+/* Navigation bar
+______________________________________________________________ */
+
+div.band.navigation {
+    background-color: #1d74ab;
+}
+
+nav.primary {
+    margin-right: 5%;
+}
+
+nav.primary ul,
+nav.primary ul li {
+    margin: 0px;
+}
+
+nav.primary ul li {
+    display: inline;
+    float: right;
+    position: relative;
+}
+
+nav.primary ul li a {
+    display: inline-block;
+    line-height: 49px;
+    color: white;
+    padding: 0 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+nav.primary ul li a:hover {
+    color: rgb(215, 215, 215);
 }
 
 /* Typography
