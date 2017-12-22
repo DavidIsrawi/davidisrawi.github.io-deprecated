@@ -82,7 +82,7 @@ body {
 }
 
 pre {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 h2 {
@@ -98,20 +98,20 @@ h2.bio {
 
 p.bio {
     color: white;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 a.bio {
     color: white;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 p.description {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 p.link {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 a:link {
@@ -246,6 +246,7 @@ p.copyright {
     text-align: center;
     color: #666;
     font-size: 1em;
+    margin-top: 25px;
 }
 
 /* Media Queries
