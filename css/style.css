@@ -11,8 +11,14 @@ ______________________________________________________________ */
 
 /* General Content
 ______________________________________________________________ */
-.main{
+.main {
     padding-top: 3%;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.main > div {
+    scroll-snap-align: center;
 }
 
 .row {
