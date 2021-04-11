@@ -12,277 +12,281 @@ ______________________________________________________________ */
 /* General Content
 ______________________________________________________________ */
 .main {
-    padding-top: 3%;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
+  padding-top: 3%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 .main > div {
-    scroll-snap-align: center;
+  scroll-snap-align: center;
 }
 
 .row {
-    padding: 2% 0;
+  padding: 2% 0;
 }
 
 .green {
-    background-color: #1d74ab;
+  background-color: #1d74ab;
 }
 
 .back {
-    background: url("../images/blueback2.jpg");
-    /*background-color: #1d74ab;*/
-    height: 100vh;
-    min-width: 100%;
-    background-size: cover;
+  background: url("../images/blueback2.jpg");
+  /*background-color: #1d74ab;*/
+  height: 100vh;
+  min-width: 100%;
+  background-size: cover;
 }
 
 .links {
-    padding: 0;
+  padding: 0;
 }
 
 /* Navigation bar
 ______________________________________________________________ */
 
 div.band.navigation {
-    background-color: #1d74ab;
+  background-color: #1d74ab;
 }
 
 nav.primary {
-    margin-right: 5%;
+  margin-right: 5%;
 }
 
 nav.primary ul,
 nav.primary ul li {
-    margin: 0px;
+  margin: 0px;
 }
 
 nav.primary ul li {
-    display: inline;
-    float: right;
-    position: relative;
+  display: inline;
+  float: right;
+  position: relative;
 }
 
 nav.primary ul li a {
-    display: inline-block;
-    line-height: 49px;
-    color: white;
-    padding: 0 2em;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 0.2em;
+  display: inline-block;
+  line-height: 49px;
+  color: white;
+  padding: 0 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.2em;
 }
 
 nav.primary ul li a:hover {
-    color: rgb(215, 215, 215);
+  color: rgb(215, 215, 215);
 }
 
 /* Typography
 ______________________________________________________________ */
 body {
-    font-family: 'Avenir',sans-serif;
-    font-weight: 100;
-    font-size: 1.5em;
-    color: black;
+  font-family: "Avenir", sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+  color: black;
+}
+
+.employer {
+  text-align: center;
 }
 
 pre {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 h2 {
-    font-family: 'Avenir', sans-serif;
-    font-weight: 500;
-    font-size: 2.6em;
-    margin: 0.67em;
+  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+  font-size: 2.6em;
+  margin: 0.67em;
 }
 
 h2.bio {
-    color: white;
+  color: white;
 }
 
 p.bio {
-    color: white;
-    font-size: 1.3em;
+  color: white;
+  font-size: 1.3em;
 }
 
 a.bio {
-    color: white;
-    font-size: 1.3em;
+  color: white;
+  font-size: 1.3em;
 }
 
 p.description {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 p.link {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a.name {
-    font-weight: bold;
-    height: 50vh;
+  font-weight: bold;
+  height: 50vh;
 }
 
 p.subtitle {
-    font-size: 1.8em;
-    color: white;
+  font-size: 1.8em;
+  color: white;
 }
 
 /* Header and Navigation
 ______________________________________________________________ */
 header.main_nav {
-    padding: 1% 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  padding: 1% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo {
-    margin: 5% auto;
-    text-align: center;
+  margin: 5% auto;
+  text-align: center;
 }
 
-.logo a{
-    font-size: 4em;
-    color: white;
-    text-decoration: none;
-    border: 3px solid white;
-    text-transform: uppercase;
-    padding: 2px 10px 0px 10px;
-    margin: 0;
+.logo a {
+  font-size: 4em;
+  color: white;
+  text-decoration: none;
+  border: 3px solid white;
+  text-transform: uppercase;
+  padding: 2px 10px 0px 10px;
+  margin: 0;
 }
 
 .logo a:hover {
-    background-color: white;
-    color: rgb(52, 125, 177) !important;
-    color: #7accc8;
+  background-color: white;
+  color: rgb(52, 125, 177) !important;
+  color: #7accc8;
 }
 
 /* Images and Media
 ______________________________________________________________ */
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 img.avatar {
-    border-radius: 400px;
-    border: 5px solid white;
+  border-radius: 400px;
+  border: 5px solid white;
 }
 
 img.volunteer {
-    height: 120px;
-    width: 150px;
+  height: 120px;
+  width: 150px;
 }
 
 img.project {
-    max-width: 170px;
-    max-height: 170px;
+  max-width: 170px;
+  max-height: 170px;
 }
 
 img.shared {
-    height: 15.7em;
+  height: 15.7em;
 }
 
 img:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .repo {
-    color: black;
+  color: black;
 }
 
 /* Footer
 ______________________________________________________________ */
 ul.social {
-    display: block;
-    margin: 5% 0;
-    list-style-type: none;
-    text-align: center;
+  display: block;
+  margin: 5% 0;
+  list-style-type: none;
+  text-align: center;
 }
 
 ul.social li {
-    font-size: 3em;
-    display: inline;
-    padding: 0 2%;
+  font-size: 3em;
+  display: inline;
+  padding: 0 2%;
 }
 
 ul.social li a {
-    color: #e4e4e4;
+  color: #e4e4e4;
 }
 
 ul.social li.facebook a:hover {
-    color: rgb(59,89,152);
+  color: rgb(59, 89, 152);
 }
 
 ul.social li.twitter a:hover {
-    color: rgb(0,172,237);
+  color: rgb(0, 172, 237);
 }
 
 ul.social li.instagram a:hover {
-    color: rgb(237, 179, 81);
+  color: rgb(237, 179, 81);
 }
 
 ul.social li.youtube a:hover {
-    color: rgb(187,0,0);
+  color: rgb(187, 0, 0);
 }
 
 ul.social li.flickr a:hover {
-    color: rgb(255,0,132);
+  color: rgb(255, 0, 132);
 }
 
 ul.social li.linkedin a:hover {
-    color: rgb(24, 196, 213);
+  color: rgb(24, 196, 213);
 }
 
 ul.social li.github a:hover {
-    color: rgb(32, 32, 32);
+  color: rgb(32, 32, 32);
 }
 
 ul.social li.email a:hover {
-    color: rgb(59, 207, 154);
+  color: rgb(59, 207, 154);
 }
 
 p.copyright {
-    text-align: center;
-    color: #666;
-    font-size: 1em;
-    margin-top: 25px;
+  text-align: center;
+  color: #666;
+  font-size: 1em;
+  margin-top: 25px;
 }
 
 /* Media Queries
 ______________________________________________________________ */
 /* Larger than mobile */
 @media screen and (max-width: 1250px) {
-    .logo a {
-        font-size: 2em;
-    }
-    .main {
-        padding-top: 15%;
-    }
-    .portfolio img{
-        margin-bottom: 10%;
-    }
-    img.avatar {
-        margin-top: 15%;
-    }
-    h2.bio {
-        font-size: 2.5em;
-    }
-    p.bio {
-        font-size: 1.25em;
-        color: #fbfbfb;
-    }
-    ul.social li a {
-        font-size: .75em;
-    }
+  .logo a {
+    font-size: 2em;
+  }
+  .main {
+    padding-top: 15%;
+  }
+  .portfolio img {
+    margin-bottom: 10%;
+  }
+  img.avatar {
+    margin-top: 15%;
+  }
+  h2.bio {
+    font-size: 2.5em;
+  }
+  p.bio {
+    font-size: 1.25em;
+    color: #fbfbfb;
+  }
+  ul.social li a {
+    font-size: 0.75em;
+  }
 
-    .back {
-        background: #1d74ab;
-    }
+  .back {
+    background: #1d74ab;
+  }
 }
